@@ -127,9 +127,9 @@ button {
   height: 60px;
   font-size: 1.6em;
   border-radius: 5px;
-  width: 100%; /* Botão ocupa toda a largura do seu contêiner */
-  max-width: 400px; /* Limitando a largura máxima para evitar que fique muito esticado */
-  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 100%; 
+  max-width: 400px; 
+  margin: 0 auto; 
 }
 
 @media screen and (max-width: 768px) {
