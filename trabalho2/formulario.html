@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleforms.css">
+  <title>Document</title>
+</head>
+<body>
+    <header class="menu">
+      <img src="./img/Planet9_3840x2160.jpg" alt="" width="10%">
+      <div class="flexcontainer">
+        <a href="index.html" class="menu-item">Home</a>
+        <a href="formulario.html" class="menu-item">Formulário</a>
+        <a href="./galeria.html" class="menu-item">Galeria</a>
+      </div>
+    </header>
+    <main>
+      <h1>Formulário</h1>
+      <div>
+        <form action="">
+          <form method="post" action="#">
+            <fieldset>
+              <legend>Identificação</legend>
+              <label for="name">Nome:</label>
+              <input type="text" id="name" name="name"> <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"> <br>
+              <label for="password">Senha:</label>
+              <input type="password" id="password" name="password">
+            </fieldset>
+            <fieldset>
+              <legend>Extras</legend>
+              <h4>Esporte favorito:</h4>
+              <label for="futebol">Futebol</label>
+              <input type="radio" id="futebol" name="favorite-esport" value="futebol"> <br>
+              <label for="volei">volei</label>
+              <input type="radio" id="volei" name="favorite-esport" value="volei"> <br>
+              <label for="basquete">Basquete</label>
+              <input type="radio" id="basquete" name="favorite-esport" value="basquete"> <br>
+            </fieldset> <br>
+              <fieldset>
+                <legend>informações adicionais</legend>
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="aditional-information" value="telefone"> <br>
+                <label for="documento">Documento de Identificação:</label>
+                <input type="file" multiple name="documento">
+                <h4>Observações:</h4>
+                <label for="obs"></label> <br>
+                <textarea id="obs" name="obs" rows="6">Digite aqui!</textarea>
+              </fieldset>
+          </form> <br>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="info">
+        <p class="info-dados"><b>Endereço:</b> R. Dr. Nascimento, 315 a - Centro, Rio Grande - RS, 96200-300</p> <br>
+        <p class="info-dados"><b>Email:</b> viking.ceifadordelas02@gmail.com</p>
+        <p class="info-dados"><b>Telefone:</b> 99999-9999</p>
+      </div>
+      <div class="social-midia">
+            <img src="./img/instagram.png" alt="" width="5%">
+            <img src="./img/twitter.png" alt="" width="5%">
+            <img src="./img/tik-tok.png" alt="" width="5%">
+        </div>
+    </footer>
+</body>
+</html>
